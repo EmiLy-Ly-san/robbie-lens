@@ -1,3 +1,31 @@
 /*********DESIGN SYSTEM***********/
+@import url("https://fonts.googleapis.com/css2?family=Manrope&family=Michroma&display=swap");
+
+/**PAGES ET MODULES*/
+@import "pages/home.css";
+@import "pages/about.css";
+@import "pages/portfolio.css";
+@import "pages/tarifs.css";
+@import "modules/barr-nav.css";
+@import "modules/cta.css";
+@import "modules/footer.css";
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  height: 100vh;
+}
+
 :root {
+  /*COLORS*/
+  --white: #ffffff;
+  --black: #000000;
+  --dark-purple: #1f2039;
+  --light-purpple: #a5b4fc;
+  --gradient: #8e86b5, #acaeed;
+  --gradient-variant: #696484, #8788ba;
 }
