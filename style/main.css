@@ -28,4 +28,24 @@ body {
   --light-purpple: #a5b4fc;
   --gradient: #8e86b5, #acaeed;
   --gradient-variant: #696484, #8788ba;
+
+  /*TEXT CONFIGURATION*/
+  --body-font: "Manrope", sans-serif;
+  --body-highlight-font: "Manrope", sans-serif;
+  --body-font-size: 1.25rem;
+  --body-highlight-font-size: 0.875rem;
+  --body-font-weight: 400;
+  --body-highlight-font-weight: 400;
+  --body-line-height: 1.5rem;
+  --body-highlight-line-height: 1.5rem;
+
+  --header-font: "Michroma", sans-serif;
+  --header-font-size: 3.438;
+  --header-font-weight: 400;
+  --header-line-height: 1.5rem;
+
+  --title-font: "Michroma", sans-serif;
+  --title-font-size: 2.188rem;
+  --title-font-weight: 400;
+  --title-line-height: 1.5rem;
 }
