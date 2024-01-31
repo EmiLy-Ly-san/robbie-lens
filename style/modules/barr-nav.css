@@ -1,0 +1,24 @@
+.appBar__container {
+  background-color: var(--white);
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.appBar__container a {
+  color: var(--light-black);
+  font-size: 1.125rem;
+}
+
+nav {
+  display: flex;
+  gap: 8.313rem;
+  padding-right: 4.5rem;
+}
+
+.appBar__logo {
+  margin-left: 3.063rem;
+  margin-top: 1.125rem;
+  margin-bottom: 1.125rem;
+}
