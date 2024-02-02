@@ -1,1 +1,11 @@
+.profil__container {
+  display: flex;
+  gap: 11.188rem;
+  justify-content: center;
+  margin-top: 6.313rem;
+}
 
+.profil__container__text p {
+  margin-top: 1.188rem;
+  margin-bottom: 4.5rem;
+}
