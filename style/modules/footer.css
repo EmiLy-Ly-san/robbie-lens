@@ -1,0 +1,19 @@
+.footer__container {
+  background-color: var(--white);
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.footer__logo {
+  margin-top: 1.781rem;
+  margin-bottom: 1.781rem;
+  margin-left: 3rem;
+}
+
+.container__social {
+  display: flex;
+  gap: 1.844rem;
+  padding-right: 5.375rem;
+}
