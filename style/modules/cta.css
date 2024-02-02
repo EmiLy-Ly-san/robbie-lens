@@ -1,0 +1,17 @@
+.cta {
+  font-family: var(--title-font);
+  font-size: 1.063rem;
+  color: var(--white);
+  border-radius: 50px;
+  background: linear-gradient(180deg, #8e86b5 0%, #acaeed 100%);
+  padding: 1.313rem 2.375rem;
+}
+
+section a:hover {
+  font-family: var(--title-font);
+  font-size: 1.063rem;
+  color: var(--white);
+  border-radius: 50px;
+  background: linear-gradient(180deg, #696484 0%, #8788ba 100%);
+  padding: 1.313rem 2.375rem;
+}
