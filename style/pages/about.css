@@ -38,7 +38,6 @@
   margin-left: 32.5rem;
   display: flex;
   flex-direction: column;
-  position: relative;
 }
 
 .container__aboutText__details {
@@ -73,10 +72,15 @@ p {
   height: 25.438rem;
   border-bottom: solid 1px var(--light-purpple);
   border-right: solid 1px var(--light-purpple);
-  margin-bottom: 8rem;
+  position: relative;
+  bottom: 22.5rem;
+  left: 19.688rem;
 }
+
 .portfolioButton {
   display: flex;
   justify-content: center;
-  margin-bottom: 8.063rem;
+  margin-top: 8rem;
+  position: relative;
+  bottom: 22.5rem;
 }
