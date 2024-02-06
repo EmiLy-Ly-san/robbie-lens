@@ -32,3 +32,51 @@
   z-index: -1;
   margin-top: 3rem;
 }
+
+.container__aboutText {
+  margin-top: 4.938rem;
+  margin-left: 32.5rem;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+}
+
+.container__aboutText__details {
+  margin-top: 6.313rem;
+  margin-left: 4.688rem;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.container__aboutText__details li {
+  margin-left: 2rem;
+}
+
+.container__aboutText__details li,
+p {
+  font-size: 1rem;
+  font-family: var(--body-font);
+  line-height: var(--body-line-height);
+  font-weight: var(--body-font-weight);
+}
+
+.container__aboutText__details h2 {
+  font-family: var(--body-font);
+  line-height: var(--body-line-height);
+  font-weight: var(--body-font-weight);
+  font-size: var(--body-font-size);
+}
+
+.lineDecoration {
+  width: 19.688rem;
+  height: 25.438rem;
+  border-bottom: solid 1px var(--light-purpple);
+  border-right: solid 1px var(--light-purpple);
+  margin-bottom: 8rem;
+}
+.portfolioButton {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 8.063rem;
+}
