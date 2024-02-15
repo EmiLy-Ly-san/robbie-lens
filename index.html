@@ -70,13 +70,22 @@
       </section>
       <section class="contact" id="contact__anchor">
         <h2>Parlons de votre projet</h2>
-        <form action="">
-          <label for="">nom</label>
-          <input type="text" />
-          <label for="">email</label>
-          <input type="text" />
-          <label for="">message</label>
-          <input type="text" />
+        <form action="" method="">
+          <div class="informationForm__container">
+            <div class="fullNameForm">
+              <label for="fullName">nom</label>
+              <input
+                type="textarea"
+                name="contactName"
+                value="John Snow"
+                id="fullName"
+              />
+            </div>
+            <div class="emailForm">
+              <label for="">email</label>
+              <input type="textarea" id="email" value="john-snow@gaot.wall" />
+            </div>
+          </div>
         </form>
         <a class="cta" href="index.html">ENVOYER</a>
       </section>

@@ -30,6 +30,7 @@ a {
   --white-variant: #f9f8ff;
   --light-black: #242424;
   --dark-purple: #1f2039;
+  --purple: #2c2e51;
   --light-purpple: #a5b4fc;
 
   /*TEXT CONFIGURATION*/
@@ -38,7 +39,6 @@ a {
   --body-font-size: 1.25rem;
   --body-highlight-font-size: 0.875rem;
   --body-font-weight: 400;
-  --body-highlight-font-weight: 400;
   --body-line-height: 1.5rem;
   --body-highlight-line-height: 1.5rem;
 
@@ -49,7 +49,7 @@ a {
 
   --title-font: "Michroma", sans-serif;
   --title-font-size: 2.188rem;
-  --title-font-weight: 400;
+  --title-font-weight: 600;
   --title-line-height: 1.5rem;
 }
 
