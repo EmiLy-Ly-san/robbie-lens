@@ -1,9 +1,29 @@
+.profil {
+  margin-bottom: 8rem;
+  margin-top: 8rem;
+}
 .profil__container {
   display: flex;
   gap: 11.188rem;
   justify-content: center;
   margin-top: 6.313rem;
   margin-bottom: 6.313rem;
+  /*border: solid 1px red;*/
+  width: 41%;
+  padding-bottom: 2rem;
+  margin: auto;
+  position: relative;
+}
+
+.profil__container::after {
+  content: "";
+  width: 70px;
+  height: 70px;
+  position: absolute;
+  bottom: 0;
+  right: 0rem;
+  border-right: solid 1px var(--light-purpple);
+  border-bottom: solid 1px var(--light-purpple);
 }
 
 .profil__container__text p {
@@ -61,10 +81,6 @@
 
 .containerForm input {
   margin-top: 1rem;
-}
-
-textarea {
-  grid-row-start: auto;
 }
 
 .informationForm__container {
