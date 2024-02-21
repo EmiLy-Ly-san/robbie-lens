@@ -1,0 +1,58 @@
+.headBandPortfolio {
+  background: var(--dark-purple);
+}
+
+.headBandPortfolio h1 {
+  margin-top: 9.375rem;
+  margin-left: 20rem;
+  margin-bottom: 4.188rem;
+  font-size: var(--header-font-size);
+}
+
+.paysagesSection,
+.portraitsSection {
+  background: var(--white);
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 4.125rem;
+  padding-left: 20rem;
+  padding-bottom: 6.5rem;
+  padding-top: 6.5rem;
+}
+
+.paysagesSection h3,
+.portraitsSection h3 {
+  color: var(--light-black);
+  font-size: var(--header-font-size);
+  font-weight: 400;
+}
+
+.paysagesSection h3 {
+  padding-top: 5rem;
+}
+
+.paysagesSection img,
+.portraitsSection img {
+  width: 20.5rem;
+  height: 19.438rem;
+}
+
+.paysagesImagesContainer,
+.portraitsImagesContainer {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.paysagesImagesContainer__row1,
+.portraitsImagesContainer__row1 {
+  display: flex;
+  gap: 1rem;
+}
+
+.paysagesImagesContainer__row2,
+.portraitsImagesContainer__row2 {
+  display: flex;
+  gap: 1rem;
+}

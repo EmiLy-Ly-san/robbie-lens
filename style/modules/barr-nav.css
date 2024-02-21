@@ -11,6 +11,12 @@
   font-size: 1.125rem;
 }
 
+.appBar__container a:hover {
+  font-size: 1.5rem;
+  color: var(--dark-purple);
+  font-weight: 600;
+}
+
 nav {
   display: flex;
   gap: 8.313rem;
