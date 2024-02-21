@@ -9,9 +9,9 @@
   margin-top: 6.313rem;
   margin-bottom: 6.313rem;
   /*border: solid 1px red;*/
-  width: 41%;
   padding-bottom: 2rem;
   margin: auto;
+  max-width: 71.875rem;
   position: relative;
 }
 
@@ -21,7 +21,7 @@
   height: 70px;
   position: absolute;
   bottom: 0;
-  right: 0rem;
+  right: 0;
   border-right: solid 1px var(--light-purpple);
   border-bottom: solid 1px var(--light-purpple);
 }
