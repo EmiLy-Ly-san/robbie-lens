@@ -32,9 +32,11 @@
               capturer l'essence de chaque instant.
             </p>
             <a class="cta" href="#contact__anchor">UN PROJET ? ECRIVEZ-MOI</a>
-          </div>
-          <img src="img/profil.png" alt="Photo de profil de Robbie Lens" />
-          <div class="profil__container__decorationBorder"></div>
+          </div class="photoProfil">
+          <img
+            src="img/profil.png"
+            alt="Photo de profil de Robbie Lens"
+          />
         </div>
       </section>
       <section class="lastProject">
@@ -70,21 +72,36 @@
       </section>
       <section class="contact" id="contact__anchor">
         <h2>Parlons de votre projet</h2>
-        <form action="" method="">
+        <form class="containerForm" method="">
           <div class="informationForm__container">
             <div class="fullNameForm">
               <label for="fullName">nom</label>
               <input
                 type="textarea"
                 name="contactName"
-                value="John Snow"
+                placeholder="John Snow"
                 id="fullName"
+                required
               />
             </div>
             <div class="emailForm">
-              <label for="">email</label>
-              <input type="textarea" id="email" value="john-snow@gaot.wall" />
+              <label for="email">email</label>
+              <input
+                type="textarea"
+                id="email"
+                placeholder="john-snow@got.wall"
+                required
+              />
             </div>
+          </div>
+          <div class="message">
+            <label for="message">Message</label>
+            <input
+              type="textarea"
+              id="message"
+              placeholder="Entrez votre message"
+              required
+            />
           </div>
         </form>
         <a class="cta" href="index.html">ENVOYER</a>
